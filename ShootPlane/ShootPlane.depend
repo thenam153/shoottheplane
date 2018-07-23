@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1526538403 source:d:\sdl\game\shootplane\base.cpp
+	"base.h"
+
+1526440985 d:\sdl\game\shootplane\base.h
+	"common.h"
+
+1526538333 d:\sdl\game\shootplane\common.h
+	<SDL.h>
+	<iostream>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<stdlib.h>
+	<ctime>
+	<fstream>
+
+1525522652 source:d:\sdl\game\shootplane\bulletobject.cpp
+	"bulletobject.h"
+
+1525508441 d:\sdl\game\shootplane\bulletobject.h
+	"base.h"
+
+1526541287 source:d:\sdl\game\shootplane\common.cpp
+	"common.h"
+
+1526539300 source:d:\sdl\game\shootplane\mainobject.cpp
+	"mainobject.h"
+
+1526293630 d:\sdl\game\shootplane\mainobject.h
+	"base.h"
+	"bulletobject.h"
+	<vector>
+
+1526298381 source:d:\sdl\game\shootplane\monster.cpp
+	"monster.h"
+
+1525522944 d:\sdl\game\shootplane\monster.h
+	"base.h"
+	"bulletobject.h"
+	<vector>
+
+1526549767 source:d:\sdl\game\shootplane\main.cpp
+	"base.h"
+	"mainobject.h"
+	"monster.h"
+	"bossobject.h"
+
+1526308124 source:d:\sdl\game\shootplane\bossobject.cpp
+	"bossobject.h"
+
+1526298479 d:\sdl\game\shootplane\bossobject.h
+	"base.h"
+	"bulletobject.h"
+	<vector>
+
